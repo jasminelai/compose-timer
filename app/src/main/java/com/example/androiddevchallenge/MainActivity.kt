@@ -19,12 +19,9 @@ import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.foundation.layout.*
-import androidx.compose.material.*
 import androidx.compose.material.ButtonDefaults.elevation
 import androidx.compose.material.ButtonDefaults.textButtonColors
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
@@ -103,7 +100,7 @@ fun Clock(
     )
 }
 
-private fun formatTime(timeInSeconds: Long) : String {
+private fun formatTime(timeInSeconds: Long): String {
     val minutes = timeInSeconds / 60
     val seconds = timeInSeconds - minutes * 60
     var formattedTime = ""
@@ -245,18 +242,18 @@ fun SecondsPreview() {
     }
 }
 
-//@Preview("Light Theme", widthDp = 360, heightDp = 640)
-//@Composable
-//fun LightPreview() {
+// @Preview("Light Theme", widthDp = 360, heightDp = 640)
+// @Composable
+// fun LightPreview() {
 //    MyTheme {
 //        TimerView()
 //    }
-//}
+// }
 //
-//@Preview("Dark Theme", widthDp = 360, heightDp = 640)
-//@Composable
-//fun DarkPreview() {
+// @Preview("Dark Theme", widthDp = 360, heightDp = 640)
+// @Composable
+// fun DarkPreview() {
 //    MyTheme(darkTheme = true) {
 //        TimerView()
 //    }
-//}
+// }

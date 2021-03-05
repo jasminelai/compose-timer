@@ -1,4 +1,4 @@
-# Put title of your app here
+# Simple Countdown Timer
 
 <!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
 <!--- You can find both of these in the url bar when you open your repository in github. -->
@@ -12,7 +12,7 @@ Implementing a countdown timer using Android Compose!
 ## :bulb: Motivation and Context
 <!--- Optionally point readers to interesting parts of your submission. -->
 <!--- What are you especially proud of? -->
-Trying out fun new Android tools.
+Trying out fun new Android tools. Practiced how to use LiveData and ViewModels.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
